@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html ng-app="TiempoSkills">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/app.css">
+
+    <script type="text/javascript" src="~/Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+
+    <script type="text/javascript" src="~/Scripts/js/app.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/SkillEditModalController .js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/PersonDetailController.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/PersonListController.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/services/PersonService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/services/SkillService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/filters/SkillDetailFilter.js"></script>
+
+
+</head>
+<body>
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+</body>
+</html>
